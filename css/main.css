@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Circe';
+    src: url(../fonts/Circe-Light/Circe-Light.eot);
+    src: local('Circe Light'), local('Circe-Light'),
+    url(../fonts/Circe-Light/Circe-Light.eot) format('embedded-opentype'),
+    url(../fonts/Circe-Light/Circe-Light.woff2) format('woff2'),
+    url(../fonts/Circe-Light/Circe-Light.woff) format('woff'),
+    url(../fonts/Circe-Light/Circe-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url(../fonts/Circe-Regular/Circe-Regular.eot);
+    src: local('Circe Regular'), local('Circe-Regular'),
+    url(../fonts/Circe-Regular/Circe-Regular.eot) format('embedded-opentype'),
+    url(../fonts/Circe-Regular/Circe-Regular.woff2) format('woff2'),
+    url(../fonts/Circe-Regular/Circe-Regular.woff) format('woff'),
+    url(../fonts/Circe-Regular/Circe-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url(../fonts/Circe-Bold/Circe-Bold.eot);
+    src: local('Circe Bold'), local('Circe-Bold'),
+    url(../fonts/Circe-Bold/Circe-Bold.eot) format('embedded-opentype'),
+    url(../fonts/Circe-Bold/Circe-Bold.woff2) format('woff2'),
+    url(../fonts/Circe-Bold/Circe-Bold.woff) format('woff'),
+    url(../fonts/Circe-Bold/Circe-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url(../fonts/Circe-ExtraBold/Circe-ExtraBold.eot);
+    src: local('Circe ExtraBold'), local('Circe-ExtraBold'),
+    url(../fonts/Circe-ExtraBold/Circe-ExtraBold.eot) format('embedded-opentype'),
+    url(../fonts/Circe-ExtraBold/Circe-ExtraBold.woff2) format('woff2'),
+    url(../fonts/Circe-ExtraBold/Circe-ExtraBold.woff) format('woff'),
+    url(../fonts/Circe-ExtraBold/Circe-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*@font-face {*/
+/*    font-family: 'Circe';*/
+/*    src: url('Circe-ExtraBold.eot');*/
+/*    src: local('Circe ExtraBold'), local('Circe-ExtraBold'),*/
+/*    url('Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),*/
+/*    url('Circe-ExtraBold.woff') format('woff'),*/
+/*    url('Circe-ExtraBold.ttf') format('truetype');*/
+/*    font-weight: 800;*/
+/*    font-style: normal;*/
+/*}*/
+
+/* ---------------- Common styles start ---------------- */
+
+:root {
+    /* ---------------------- font family ---------------------- */
+    /*--ff-Circe: 'Circe', sans-serif;*/
+
+    /* ---------------------- color ---------------------- */
+    /* --color-primary: #222222; */
+    /* --color-secondary: #555555; */
+    /* --color-black: #000000; */
+    /*--color-yellow: #FCBB08;*/
+    /*--color-white: #ffffff;*/
+    /*--color-grey: #373A39;*/
+    /*--color-black-grey: #333333;*/
+    /*--color-light-grey: #777777;*/
+    /*--color-black-grey-title: #242121;*/
+
+    /*--variable-width: 1360px;*/
+
+
+
+    /* --btn-border: #ccc; */
+
+    /* ---------------------- backgroun ---------------------- */
+    /* --bg-mint-cream: #F3FBF8; */
+    /*--bg-grey-lt: #F6F8FA;*/
+    /* --bg-white: #ffffff; */
+    /* --bg-green-lt-op: #09a66d0d; */
+    /* --bg-footer: #FCFEFD; */
+}
+
+body {
+    font-family: 'Circe', sans-serif;
+    /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+    /*font-weight: 300;*/
+    /*font-size: 14px;*/
+    /*line-height: 24px;*/
+    /*color: var(--color-grey);*/
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.title {
+    /*text-transform: capitalize;*/
+    /*font-family: var(--ff-Montserrat);*/
+    /*font-weight: 700;*/
+    /*font-size: 60px;*/
+    /*line-height: 75px;*/
+    /*letter-spacing: -1.65px;*/
+    /*padding-bottom: 15px;*/
+    /*color: var(--color-black-grey-title);*/
+    /*background-image: url(../img/Rectangle.svg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left bottom;*/
+    /*background-size: auto;*/
+}
+
+.nav {
+    /*font-family: var(--ff-Raleway);*/
+    /*font-weight: 700;*/
+    /*font-size: 12px;*/
+    /*letter-spacing: 0.6px;*/
+    /* padding-right: 53px; */
+}
+
+.nav__list {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+
+.nav__item {
+    /*display: block;*/
+    /*padding: 0 5px;*/
+    /*margin: 0 20px;*/
+}
+
+.nav__item:hover {
+    /*border-bottom: 1px solid var(--color-yellow);*/
+}
+
+.link {
+    /*color: var(--color-grey);*/
+    /*text-transform: uppercase;*/
+}
+
+/* ---------------- Common styles end ---------------- */
+
+/* ---------------- Header start ---------------- */
+
+.header__hero {
+    background-image: url("../img/header/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__hero-block {
+    max-width: 50%;
+    padding: 70px 0 34px;
+}
+
+.logo {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 40px;
+}
+
+.header__hero-text {
+    padding: 37px 0 6px;
+    font-size: 32px;
+}
+
+.header__hero-title {
+    font-size: 74px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 5px 0 15px;
+    line-height: 74px;
+    letter-spacing: -2px;
+}
+
+/* ---------------- Header end ---------------- */
