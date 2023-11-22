@@ -132,8 +132,8 @@ body {
 }
 
 .header__line-content {
-    position: relative;
     display: flex;
+    align-items: center;
     align-content: center;
     height: 100%;
     padding: 50px 0 40px;
@@ -141,25 +141,31 @@ body {
 }
 
 .header__line-block {
-    position: relative;
     display: flex;
     gap: 18px;
-    width: 50%;
+    max-width: 50%;
 }
 
-.header__line-text span {
+.header__line-stickers {
+    display: flex;
+    gap: 12px;
+}
+
+.header__line-text p span {
     text-transform: none;
     font-size: 32px;
 }
 
 .header__line-img {
-    position: absolute;
-    top: -6px;
-    right: -20px;
+    position: relative;
+    top: -5px;
+    right: 0;
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
 }
 
 .header__line-arrow {
-    margin-top: -10px;
     width: 36px;
 }
 
