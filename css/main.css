@@ -159,6 +159,7 @@ body {
 
 .header__line-arrow {
     margin-top: -10px;
+    width: 36px;
 }
 
 .header__line-percent {

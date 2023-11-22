@@ -1,0 +1,54 @@
+@media (max-width: 1024px) {
+    .header__hero-block {
+        padding: 40px 0 20px;
+    }
+    .logo {
+        gap: 50px;
+    }
+    .header__hero-text {
+        font-size: 24px;
+    }
+    .header__hero-title {
+        font-size: 54px;
+        line-height: 54px;
+    }
+    .header__discount-before {
+        top: 30px;
+        left: 10px;
+        font-size: 38px;
+    }
+    .header__discount-number {
+        font-size: 145px;
+        line-height: 180px;
+    }
+    .header__discount-percent {
+        font-size: 85px;
+    }
+    .header__description {
+        margin-top: -20px;
+        font-size: 12px;
+    }
+    .header__description img{
+        width: 94px;
+    }
+    .header__line {
+        background: #000;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .header__line-content {
+        padding: 35px 0 25px;
+    }
+    .header__line-text span {
+        font-size: 23px;
+    }
+    .header__line-img {
+        width: 80px;
+        top: -6px;
+        right: -20px;
+    }
+    .header__line-arrow {
+        margin-top: -5px;
+        width: 30px;
+    }
+}
