@@ -119,6 +119,7 @@ body {
     gap: 24px;
     font-size: 18px;
     margin-top: -50px;
+    align-items: center;
 }
 
 .header__line {
